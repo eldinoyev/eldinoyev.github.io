@@ -56,8 +56,13 @@ body {
   background-color: black;
 }
 
-body .github img {
+.github img {
   margin: 0 auto;
+}
+
+.about p {
+  width: 100%;
+  text-align: center;
 }
 
 h1 {
