@@ -29,6 +29,12 @@
   }
 }
 
+@media (max-width: 768px) { 
+  body .github {
+    display: none;
+  }
+}
+
 body {
   background-color: #fff;
 }
