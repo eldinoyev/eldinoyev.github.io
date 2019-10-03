@@ -1,14 +1,39 @@
----
-layout: default
----
-
-            
-{% include carrier-profile.html %}
-            
-{% include experience.html %}
-            
-{% include projects.html %}
-            
-{% include skills.html %}
-
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>&#128640; Leonid Kukuyev</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/4ebeac5e6c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container content mx-auto">
+    <div class="nav pt-1 pt-lg-4 pb-1 pb-lg-4 d-flex justify-content-end">
+      <a href="./index.html">Home</a>
+      <!-- <a href="./resume.html">Resume</a> -->
+    </div>
+    <div class="personal row mb-3">
+      <div class="info col-lg-6 col-md-12 pr-lg-5">
+        <h1 class="mb-3">Leonid Kukuyev</h1>
+        <div class="contact-items">
+          <p class="contact-item mb-lg-0 mt-lg-0 mb-3 mt-3"><a class="pb-3 pt-3 pt-lg-0 pb-lg-0" href="mailto:leonidkukuyev@gmail.com">leonidkukuyev@gmail.com</a><i class="fas fa-envelope"></i></p>
+          <p class="contact-item mb-lg-0 mt-lg-0 mb-3 mt-3"><a class="pb-3 pt-3 pt-lg-0 pb-lg-0" href="https://github.com/eldinoyev">github/eldinoyev</a><i class="fab fa-github"></i></p>
+          <p class="contact-item mb-lg-0 mt-lg-0 mb-3 mt-3"><a class="pb-3 pt-3 pt-lg-0 pb-lg-0" href="https://linkedin.com/in/leonid-kukuyev">linkedin/leonid-kukuyev</a><i class="fab fa-linkedin"></i></p>
+        </div>
+      </div>
+      <div class="photo col-lg-6 col-md-12 pl-lg-5 mt-lg-0 mt-4">
+        <img src="./me.jpeg" alt="A photo of myself, pixelated">
+      </div>
+    </div>
+    <div class="github row mt-5">
+        <img src="http://ghchart.rshah.org/eldinoyev" alt="eldinoyev's Github chart" />
+    </div>
+    <div class="about row mt-5 mb-5 pr-4 pl-4">
+      <p>My name is Leo. I'm a Software Engineer. I'm pretty good.</p>
+      <p>I'm interested in: space exploration, embedded software, and serverless.</p>
+      <p>My strengths include: JavaScript, AWS, serverless development & architecture, backend development, and humor.</p>
+    </div>
+  </div>
+</body>
+</html>
