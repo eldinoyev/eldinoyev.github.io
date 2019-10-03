@@ -13,14 +13,14 @@
     text-align: center;
   }
 
-  body .personal .photo img {
-    margin: 0 auto;
+  body .personal .photo {
+    text-align: center;
   }
 
   body .personal .photo img {
     width: 300px;
     height: 300px;
-    border-radius: 150px;
+    margin: 0 auto;
   }
 
   body .github img {
