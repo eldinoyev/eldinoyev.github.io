@@ -9,7 +9,7 @@
     max-width: 100%;
   }
 
-  body .content h1, body .content p {
+  body .content h1, body .content h2, body .content p {
     text-align: center;
   }
 
